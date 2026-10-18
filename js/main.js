@@ -1,4 +1,22 @@
 let projects = [
+  {
+    title: "USTHB L1 CS Student Companion App",
+    description: `Overview: An Offline-First Android app for first-year CS students to access announcements, module resources, and study materials seamlessly.
+
+Core Features: Secure Google/Email authentication via Firebase Auth, personalized student profile management, and dynamic offline status detection.
+
+Data Management: Real-time news and resource synchronization between local Room Database and Firebase Firestore with pull-to-refresh capabilities.
+
+Admin & Roadmap: Role-based Admin panel for publishing content, with upcoming multi-language support (English/French) and organized module hubs.`,
+    images: [
+      "https://placehold.co/600x400/1e1e1e/27C93F?text=Working+On+It+.....",
+      //"https://placehold.co/600x400/1e1e1e/27C93F?text=Firebase+Chat+2"
+    ],
+    techStack: ["Kotlin", "Jetpack Compose", "Firebase Auth", "Firestore","Room DB", "MVVM","Offline-First Architecture"],
+    demoLink: "",
+    sourceLink: "https://github.com/chikhZE/app-cs-student",
+    right: false
+  },
   
   {
     title: "Islamic Companion (Android Native - API)",
@@ -15,7 +33,7 @@ let projects = [
     techStack: ["Kotlin", "Jetpack Compose", "Retrofit", "REST API", "Coroutines"],
     demoLink: "",
     sourceLink: "https://github.com/chikhZE/IslamicApp",
-    right: false
+    right: true
   },
   {
     title: "Baccalaureate & BEM Score Calculator",
@@ -33,7 +51,7 @@ let projects = [
     techStack: ["Kotlin", "Jetpack Compose", "Clean Architecture", "State Management"],
     demoLink: "",
     sourceLink: "https://github.com/chikhZE/AlgerianScoreCounter",
-    right: true
+    right: false
   },
   {
     title: "Habit Tracker & Productivity App",
@@ -46,7 +64,7 @@ let projects = [
     techStack: ["Kotlin", "Jetpack Compose", "Room DB", "WorkManager", "MVVM"],
     demoLink: "",
     sourceLink: "https://github.com/chikhZE/smart-habit-tracker",
-    right: false
+    right: true
   },
   {
     title: "Real-Time Chat & Cloud App",
@@ -58,24 +76,9 @@ let projects = [
     techStack: ["Kotlin", "Jetpack Compose", "Firebase Auth", "Firestore"],
     demoLink: "",
     sourceLink: "https://github.com/chikhZE",
-    right: true
-  },
-  {
-    title: "Islamic Companion (Web Edition)",
-    description: "A responsive web application featuring daily Islamic content with a interactive counters, built using modern web Templating (PugJS) and modular styling (Sass).",
-    images: [
-      "assets/imgs/islamic-web-1.png",
-      "assets/imgs/islamic-web-2.png",
-      "assets/imgs/islamic-web-3.png",
-      "assets/imgs/islamic-web-4.png",
-      "assets/imgs/islamic-web-5.png",
-      "assets/imgs/islamic-web-6.png"
-    ],
-    techStack: ["HTML5", "CSS3", "JavaScript", "PugJS", "Sass"],
-    demoLink: "https://chikhze.github.io/Islamic-web/",
-    sourceLink: "https://github.com/chikhZE/Islamic-web",
     right: false
   },
+  
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
