@@ -9,8 +9,15 @@ Data Management: Real-time news and resource synchronization between local Room 
 
 Admin & Roadmap: Role-based Admin panel for publishing content, with upcoming multi-language support (English/French) and organized module hubs.`,
     images: [
-      "https://placehold.co/600x400/1e1e1e/27C93F?text=Working+On+It+.....",
-      //"https://placehold.co/600x400/1e1e1e/27C93F?text=Firebase+Chat+2"
+      "assets/imgs/CS1.png",
+      "assets/imgs/CS2.png",
+      "assets/imgs/CS3.png",
+      "assets/imgs/CS4.png",
+      "assets/imgs/CS5.png",
+      "assets/imgs/CS6.png",
+      "assets/imgs/CS7.png",
+      "assets/imgs/CS8.png",
+
     ],
     techStack: ["Kotlin", "Jetpack Compose", "Firebase Auth", "Firestore","Room DB", "MVVM","Offline-First Architecture"],
     demoLink: "",
